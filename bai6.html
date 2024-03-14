@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bài 6</title>
+  <link rel="stylesheet" href="bai6.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <form action="" id="form-login">
+    <div class="container-left">
+      <h3 class="container-heading">LOG IN</h3>
+      <p> Login here using your name and password </p>
+      <div class="form-control">
+        <form action="">
+            <label for="username">
+              <i class="fa-solid fa-user"></i></label>
+            <input type="text" id="username" placeholder="username">
+            <br>
+            <label for="password"> 
+              <i class="fa-solid fa-lock"></i> 
+            </i></label>
+            <input type="password" id="password" placeholder="password"> 
+            <span class="toggle-password" onclick="togglePassword()">
+              <i class="fa-regular fa-eye"></i></span>
+
+          <div class="form-checkbox">
+            <input type="checkbox" id="remember-me" />
+            <label for="remember-me">Remember me</label>
+          </div>
+          <button type="submit">Log in</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="bai6.js"> </script>
+  </script>
+</body>
+
+</html>
